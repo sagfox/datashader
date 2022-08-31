@@ -9,6 +9,8 @@ import pyct.build
 ########## dependencies ##########
 
 install_requires = [
+    'awkward',
+    'awkward-pandas',
     'dask[complete]',
     'datashape >=0.5.1',
     'numba >=0.51',
